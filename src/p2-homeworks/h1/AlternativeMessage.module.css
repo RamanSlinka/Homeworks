@@ -1,0 +1,78 @@
+.message {
+    background: #0a0a0a;
+}
+
+/*
+
+.inputArea {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.inputArea::before, .block::after {
+    content: '';
+    position: absolute;
+    left: 20px; bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid gray;
+}
+.inputArea::after {
+    border-top: 20px solid gray;
+    bottom: -19px;
+}
+*/
+
+
+.inputArea {
+    margin: 30px;
+    display: inline-block;
+    border-radius: 10px;
+
+    background: gray;
+    position: relative;
+    width: 300px;
+    height: 100px;
+}
+
+.inputArea ::after {
+    content: '';
+    position: absolute;
+    left: -34px;
+    bottom: 40px;
+    border: 10px solid transparent;
+    border-right: 25px solid gray;
+}
+
+
+.name {
+    padding: 10px 0px 5px 25px;
+    color: #aefb61;
+    margin: auto;
+}
+
+p {
+    margin: auto;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: #fffefe;
+    font-size: 17px;
+}
+
+.time {
+    color: black;
+    padding-left: 80%;
+}
+
+.avatar {
+
+    width: 80px;
+    border-radius: 9%;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
