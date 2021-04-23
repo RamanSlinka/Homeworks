@@ -61,6 +61,7 @@ p {
     padding-bottom: 10px;
     color: #fffefe;
     font-size: 17px;
+    word-wrap: break-word;
 }
 
 .time {
