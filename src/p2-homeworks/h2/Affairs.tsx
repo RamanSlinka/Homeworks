@@ -8,6 +8,7 @@ type AffairsPropsType = {
     setFilter: Dispatch<SetStateAction<FilterType>>
     deleteAffairCallback: (_id: number) => void
     filter: FilterType
+
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -28,7 +29,7 @@ function Affairs(props: AffairsPropsType) {
     const setLow = () =>
     { props.setFilter('low')}
 
-    const onAll = s.button + ' ' + (props.filter === 'all' ? s.active : '')
+    const onAll = s.button + ' ' + (props.filter === 'all' ?  s.active  : '')
     const onHigh = s.button + ' ' + (props.filter === 'high' ? s.active : '')
     const onMiddle = s.button + ' ' + (props.filter === 'middle' ? s.active : '')
     const onLow = s.button + ' ' + (props.filter === 'low' ? s.active : '')
