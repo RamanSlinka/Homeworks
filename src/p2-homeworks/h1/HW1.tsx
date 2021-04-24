@@ -14,12 +14,7 @@ const messageDataAlternative = {
     message: 'some text, but more then before',
     time: '22:11',
 }
-const messageDataAlt = {
-    avatar: 'https://cdn.roundicons.com/wp-content/uploads/2017/08/Artboard-18-copy-17-hand-drawn-avatar-Icon.png',
-    name: 'Some SuperName',
-    message: 'some text, but more then before',
-    time: '22:11',
-}
+
 
 function HW1() {
     return (
