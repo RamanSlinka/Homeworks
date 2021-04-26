@@ -1,7 +1,76 @@
-.someClass {
+.page{
+    background: antiquewhite;
 
+}
+.other {
+    background: antiquewhite;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
 }
 
 .error {
-    border: 1px solid red;
+    color: red;
+    height: 20px;
+    margin-left: 10px;
+
+}
+
+.input {
+    margin: 10px;
+    height: 20px;
+    color: #111311;
+    background: rgb(127, 75, 75);
+    border-radius: 5px;
+    box-shadow: #212122 1px 1px 3px;
+    font-weight: bold ;
+}
+
+.input:focus {
+    height: 20px;
+    outline: none;
+    border: #020901 solid 1px;
+    box-shadow: #212122 1px 1px 3px;
+}
+.input:hover {
+    background: #898787;
+    height: 20px;
+}
+
+.errorInput {
+    height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid red;
+    outline: none;
+    box-shadow: #ff0000 1px 1px 3px;
+}
+
+.button {
+    margin: 10px;
+    width: 70px;
+    color: #61dafb;
+    background: #7f4b4b;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: #212122 1px 1px 3px;
+}
+
+.button:hover {
+    background: #898787;
+}
+
+.button:focus {
+    outline: #61dafb solid 1px;
+    height: 20px;
+}
+
+.button:active {
+    color: #7f4b4b;
+    height: 25px;
+}
+
+.button:disabled {
+    color: #61dafb;
+    height: 25px;
 }
