@@ -31,10 +31,12 @@ function HW4() {
                     onEnter={showAlert}
                     error={error}
                     // spanClassName={s.testSpanError}
+                    placeholder={'enter your email'}
                 />
 
                 <SuperInputText
                     className={s.blue} // проверьте, рабоет ли смешивание классов
+                    placeholder={'enter your password'}
                 />
 
                 {/*----------------------------------------------------*/}
@@ -77,4 +79,4 @@ function HW4() {
     )
 }
 
-export default HW4
+export default HW4;
