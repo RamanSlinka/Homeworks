@@ -73,7 +73,8 @@
 
 .button:focus{
 
-    outline: #00c0fc solid 2px;
+    outline: #002afc solid 2px;
+
 
 }
 
@@ -83,5 +84,6 @@
 
 .button:disabled{
     cursor: auto;
-    color: #898787;
+    color: #343434;
+    border: #0a0a0a 1px dashed;
 }
